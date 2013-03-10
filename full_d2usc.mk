@@ -21,6 +21,8 @@
 # lines, full and maguro, hence its name.
 #
  
+PRODUCT_PACKAGES := \
+    Stk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
