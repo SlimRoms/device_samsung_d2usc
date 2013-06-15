@@ -28,8 +28,8 @@
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2usc
+TARGET_BOARD_INFO_FILE ?= device/samsung/d2usc/board-info.txt
 
 # Kernel
 TARGET_KERNEL_CONFIG    := cyanogen_d2-r530_defconfig
-
 
